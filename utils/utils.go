@@ -267,7 +267,7 @@ func ValidatedFfmpegPath(ffmpegPath string) string {
 		return localCopy
 	}
 
-	cmd := exec.Command("which", "ffmpeg")
+	cmd := exec.Command("where", "ffmpeg")
 	out, err := cmd.CombinedOutput()
 	if err != nil {
 		log.Fatalln("Unable to locate ffmpeg. Either install it globally on your system or put the ffmpeg binary in the same directory as Owncast. The binary must be named ffmpeg.")

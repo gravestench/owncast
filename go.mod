@@ -66,8 +66,13 @@ require (
 	github.com/go-test/deep v1.0.4 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/gorilla/css v1.0.0 // indirect
+	github.com/gravestench/eventemitter v0.0.0-20230808015001-bb9bc0be2ad9 // indirect
+	github.com/gravestench/runtime v0.0.0-20230824045605-2f814eae15a5 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/oschwald/maxminddb-golang v1.11.0 // indirect
+	github.com/rs/zerolog v1.30.0 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
 )
 
